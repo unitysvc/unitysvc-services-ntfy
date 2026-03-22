@@ -35,6 +35,14 @@
       "is_active": true,
       "is_public": true,
       "mime_type": "bash"
+    },
+    "Getting started tutorial": {
+      "category": "tutorial",
+      "description": "Step-by-step guide to ntfy push notifications: enrollment, publishing, mobile app, WebSocket subscriptions, and rich notifications",
+      "file_path": "../../docs/tutorials/getting-started.md",
+      "is_active": true,
+      "is_public": true,
+      "mime_type": "markdown"
     }
   },
   "name": "default",
