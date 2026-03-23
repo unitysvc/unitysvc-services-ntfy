@@ -26,7 +26,8 @@
     "type": "revenue_share"
   },
   "schema": "offering_v1",
-  "service_type": "undetermined",
+  "service_type": "notification",
+  "capabilities": ["push-notification"],
   "status": "ready",
   "tagline": "Simple pub-sub notifications",
   "time_created": "2025-01-04T00:00:00Z",
