@@ -54,7 +54,7 @@
   "user_access_interfaces": {
     "ntfy-gateway": {
       "access_method": "http",
-      "base_url": "${API_GATEWAY_BASE_URL}/ntfy/{{ topic }}",
+      "base_url": "${API_GATEWAY_BASE_URL}/ntfy/{{ enrollment_vars.topic }}",
       "description": "Publish notifications via HTTP POST to your unique ntfy endpoint"
     }
   },
