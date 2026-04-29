@@ -5,14 +5,12 @@
 set -e
 
 # Use environment variables provided by the test executor
-: "${SERVICE_BASE_URL:?SERVICE_BASE_URL environment variable is required}"
-
 TEST_MESSAGE="unitysvc connectivity test successful"
 
 # Publish a test message to the enrollment's ntfy topic
 # SERVICE_BASE_URL already contains the complete URL with generated topic code
 response=$(curl -s -X POST \
-  "${SERVICE_BASE_URL}" \
+  "{{ service_base_url }}" \
   -H "Content-Type: text/plain" \
   -H "Authorization: Bearer ${UNITYSVC_API_KEY}" \
   -d "${TEST_MESSAGE}")

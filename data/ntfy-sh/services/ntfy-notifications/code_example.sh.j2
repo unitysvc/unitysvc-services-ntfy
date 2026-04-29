@@ -5,7 +5,7 @@
 #   SERVICE_BASE_URL  — Your enrollment endpoint (includes topic)
 #   UNITYSVC_API_KEY   — Your UnitySVC API key
 
-curl -X POST "${SERVICE_BASE_URL}" \
+curl -X POST "{{ service_base_url }}" \
   -H "Authorization: Bearer ${UNITYSVC_API_KEY}" \
   -H "Title: Hello from ntfy" \
   -H "Priority: default" \
