@@ -37,7 +37,7 @@
     "ntfy-upstream": {
       "access_method": "http",
       "api_key": null,
-      "base_url": "https://ntfy.staging.svcmarket.com/{{ enrollment_vars.topic }}",
+      "base_url": "https://ntfy.svcmarket.com/{{ enrollment_vars.topic }}",
       "description": "Private ntfy instance - no authentication required"
     }
   }
